@@ -1,3 +1,5 @@
+import logo from "../assets/icons/favicon-32x32.png";
+
 const Header = () => {
   return (
     <div
@@ -6,11 +8,7 @@ const Header = () => {
     >
       <div className="navbar container mx-auto px-4 py-3">
         <div className="flex-1 flex items-center gap-2">
-          <img
-            src="./src/assets/icons/favicon-32x32.png"
-            alt="Logo"
-            className="h-10 w-10"
-          />
+          <img src={logo} alt="Logo" className="h-10 w-10" />
           <a className="normal-case text-2xl font-exo text-white">
             Samir Hossain
           </a>
