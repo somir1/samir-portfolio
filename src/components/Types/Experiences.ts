@@ -6,12 +6,13 @@ export const experiences = [
     jobLocation: "Frisco, TX",
     dateStarted: "Jun 2025",
     dateEnded: "Present",
-    companyDescription:
-      "Youth tennis organization offering training and private coaching",
+    companyDescription: "Freelance web development and e-commerce solutions  ",
     jobSummary:
       "Founded and led XQM Consulting, partnering with local businesses to design and develop modern websites that improve customer engagement and drive growth.",
     keyAchievements: [
-      "Currently working with local businesses to deliver modern, accessible websites and improve their online presence.",
+      "Built and delivered WordPress/Shopify/Webflow projects for small businesses, helping clients modernize sites and add e-commerce integrations.",
+      "Designed reusable templates and component libraries, accelerating delivery timelines and reducing costs.",
+      "Created proof-of-concept projects to showcase SEO and responsive design, supporting client acquisition and onboarding.",
     ],
   },
   {
@@ -26,9 +27,9 @@ export const experiences = [
     jobSummary:
       "Partnered with a local tennis coach to redesign the website and enhance client engagement, supporting business growth and lead generation.",
     keyAchievements: [
-      "Revamped the WordPress site with Elementor, improving performance and user experience across devices.",
-      "Integrated vCoachPro webhooks to enable real-time lead routing to coaches.",
-      "Aligned business needs with technical decisions, boosting lead generation.",
+      "Redesigned with Elementor to improve responsiveness and accessibility, increasing conversions and fully booking summer classes.",
+      "Automated lead routing with vCoachPro webhooks (REST API), eliminating 100% of manual assignments.",
+      "Partnered with the owner to align technical improvements with business goals, improving lead capture and reporting.",
     ],
   },
   {
@@ -37,14 +38,16 @@ export const experiences = [
     companyUrl: "https://provokesolutions.com",
     jobLocation: "The Colony, TX",
     dateStarted: "Feb 2024",
-    dateEnded: "Jun 2024",
+    dateEnded: "Oct 2024",
     companyDescription: "Consulting firm delivering software solutions",
     jobSummary:
       "Modernized a client’s ordering portal by rebuilding it in Next.js and creating reusable, accessible front-end components.",
     keyAchievements: [
-      "Streamlined development with JSON Server for API mocking and improved test reliability through 80%+ unit test coverage in Jest and end-to-end testing with Playwright.",
-      "Accelerated UI delivery using Storybook by building a reusable form component for consistent styling and faster implementation across the app.",
-      "Delivered a successful MVP, leading to a phase-two contract extension and continued client engagement.",
+      "Replaced outdated test ordering process with a Next.js + Tailwind + Shadcn portal, delivering a modern UX that simplified workflows for clinicians and patients.",
+      "Introduced JSON Server for API mocking to eliminate backend delays, improving frontend delivery velocity by 25%.",
+      "Built a reusable Storybook component to standardize forms, cutting UI development time by 40%.",
+      "Increased Jest and Playwright coverage to 80%+ to reduce post-release defects, strengthening product reliability and trust.",
+      "Delivered an MVP portal that secured a phase-two client contract extension, directly impacting revenue growth.",
     ],
   },
   {
@@ -58,9 +61,15 @@ export const experiences = [
     jobSummary:
       "Developed Snap! Drive, an internal dashboard that supported the sales team in tracking and analyzing fundraiser data to improve decision-making and client engagement.",
     keyAchievements: [
-      "Built and deployed internal dashboards with Vue 3, Tailwind CSS, Apollo GraphQL, and Kubernetes, boosting adoption by over 50% among 400+ internal users.",
-      "Developed predictive analytics widgets and automated workflows with SendGrid and Twilio, reducing manual tasks by 35% and improving team communication.",
-      "Acted as Interim Senior Lead Developer for two critical features, delivering under tight deadlines and enabling faster access to campaign and user data.",
+      "Delivered data visibility at scale by building Vue 3 + Apollo GraphQL dashboards, enabling 400+ reps to make faster decisions and improving adoption by 50%.",
+      "Automated campaign messaging with Twilio + SendGrid APIs, reducing manual work by 35% and accelerating campaign launches.",
+      "Migrated the legacy “Find Funds” feature from the Ruby app into the new Vue.js dashboard as Campaign Search, reducing load times by 60% and improving search accuracy.",
+      "Optimized SQL queries and indexing, cutting runtime by 35% and improving data accessibility across applications.",
+      "Built visualization tools that supported $1B+ in fundraising revenue, helping reps make data-driven decisions.",
+      "Served as Interim Lead Developer, delivering critical features under deadline pressure and improving support response times.",
+      "Built predictive analytics widgets to forecast fundraiser outcomes, helping sales reps plan proactive strategies.",
+      "Partnered with design teams to deliver cross-browser accessible UI components, ensuring compliance and consistent usability.",
+      "Enhanced regression testing by implementing unit tests across the stack, cutting debugging time by 30% in future sprints.",
     ],
   },
   {
@@ -75,9 +84,9 @@ export const experiences = [
     jobSummary:
       "Helped develop a React app supporting the cannabis supply chain industry.",
     keyAchievements: [
-      "Developed and optimized a React.js application with reusable components, using Mui Material UI and Redux for a dynamic and efficient user experience.",
-      "Implemented and maintained the full MERN stack (MongoDB, Express, React, Node.js) to build RESTful APIs and manage user data, ensuring secure storage and seamless data presentation.",
-      "Collaborated cross functionally using GitHub version control, improving team workflow and maintaining consistent delivery standards.",
+      "Developed reusable React components with Material UI and Redux, improving design efficiency and maintainability.",
+      "Built and integrated RESTful APIs with the MERN stack to securely manage user data, ensuring reliable storage and seamless presentation.",
+      "Improved collaboration and delivery standards by maintaining code quality with GitHub version control, peer reviews, and documentation.",
     ],
   },
 ];

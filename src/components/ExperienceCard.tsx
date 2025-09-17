@@ -65,7 +65,7 @@ const ExperienceCard: React.FC<ExperienceProps> = ({
         {/* Achievements */}
         <div>
           <span className="block text-xs text-gray-500 uppercase tracking-wider mb-2">
-            Key Achievements
+            Job Responsbilities
           </span>
           <ul className="list-disc pl-4 text-gray-300 space-y-2 leading-relaxed">
             {keyAchievements.map((achievement, index) => (

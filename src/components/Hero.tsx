@@ -33,9 +33,25 @@ const Hero = () => {
         </h2>
 
         <p className="mb-8 font-ubuntu text-gray-400 text-lg">
-          I’m passionate about building clean, user-friendly web applications
-          using modern JavaScript technologies like React, Vue, and Node.js.
-          Always learning, always improving.
+          I’m a Software Engineer with 3+ years of experience creating
+          applications that deliver real impact. My work focuses on building
+          responsive UIs, optimizing performance, and improving workflows
+          through automation and testing.
+          <br />
+          <br />
+          Some highlights of my work:
+          <br /> - Boosted adoption by 50% by building dashboards for 400+ sales
+          reps using Vue 3 and GraphQL.
+          <br /> - Modernized a legacy Ruby feature into a Vue.js dashboard
+          module, cutting load times by 60%.
+          <br /> - Delivered a client MVP ordering portal that secured a
+          multi-phase contract extension.
+          <br /> - Automated campaign workflows with Twilio + SendGrid, reducing
+          manual effort by 35%.
+          <br />
+          <br />I specialize in React, Vue, Next.js, Node.js, TypeScript, and
+          GraphQL, and I’m always open to learning new technologies to fit the
+          needs of the project.
         </p>
 
         {/* Buttons */}
