@@ -1,13 +1,14 @@
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import { HiBadgeCheck } from "react-icons/hi";
 import profilePic from "../assets/profile.jpg";
-
-const certifications = [
-  "Graph Developer - Professional · Apollo GraphQL · 2025",
-  "Graph Developer - Associate · Apollo GraphQL · 2024",
+ 
+const educationAndCerts = [
+  "BA in Digital Media — Game Design · University of Central Florida · 2019",
   "Full-Stack Developer Certificate · Coding Dojo · 2021",
+  "Graph Developer - Associate · Apollo GraphQL · 2024",
+  "Graph Developer - Professional · Apollo GraphQL · 2025",
 ];
-
+ 
 const Hero = () => {
   return (
     <section
@@ -40,7 +41,7 @@ const Hero = () => {
           </span>
         </div>
       </div>
-
+ 
       {/* Right Column: Text Content */}
       <div className="max-w-xl w-full text-center md:text-left">
         <p className="text-gray-400 text-base leading-relaxed">
@@ -48,7 +49,7 @@ const Hero = () => {
           applications across SaaS and consulting. I focus on responsive UIs,
           performance, and shipping features that actually move the needle.
         </p>
-
+ 
         <h3 className="mt-5 font-semibold text-white text-sm uppercase tracking-wider">
           Highlights
         </h3>
@@ -70,7 +71,7 @@ const Hero = () => {
             Integrated Twilio and SendGrid to automate campaign outreach, replacing a fully manual process.
           </li>
         </ul>
-
+ 
         <p className="mt-5 text-gray-400 text-sm leading-relaxed">
           I specialize in{" "}
           <span className="text-white font-medium">
@@ -81,7 +82,7 @@ const Hero = () => {
         <p className="mt-2 text-sm italic text-gray-500">
           Always down to talk code, cars, or cinema. Hit that button and let's get rolling.
         </p>
-
+ 
         {/* Buttons */}
         <div className="flex flex-col sm:flex-row gap-3 justify-center md:justify-start mt-6 mb-5">
           <a
@@ -97,17 +98,22 @@ const Hero = () => {
             Get in Touch
           </a>
         </div>
-
-        {/* Certifications */}
-        <div className="mb-5 flex flex-col gap-1.5 items-center md:items-start">
-          {certifications.map((cert) => (
-            <div key={cert} className="flex items-center gap-2 text-xs text-gray-400">
-              <HiBadgeCheck className="text-blue-400 shrink-0" size={14} />
-              <span>{cert}</span>
-            </div>
-          ))}
+ 
+        {/* Education & Certifications */}
+        <div className="mb-5">
+          <p className="text-xs text-gray-500 uppercase tracking-wider mb-2 text-center md:text-left">
+            Education & Certifications
+          </p>
+          <div className="flex flex-col gap-1.5 items-center md:items-start">
+            {educationAndCerts.map((item) => (
+              <div key={item} className="flex items-center gap-2 text-xs text-gray-400">
+                <HiBadgeCheck className="text-blue-400 shrink-0" size={14} />
+                <span>{item}</span>
+              </div>
+            ))}
+          </div>
         </div>
-
+ 
         {/* Social Icons */}
         <div className="flex gap-4 justify-center md:justify-start">
           <a
@@ -137,5 +143,5 @@ const Hero = () => {
     </section>
   );
 };
-
+ 
 export default Hero;

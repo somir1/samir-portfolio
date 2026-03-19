@@ -1,6 +1,8 @@
 import "./App.css";
+import About from "./components/About";
 import Contact from "./components/Contact";
 import Experience from "./components/Experience";
+import FadeIn from "./components/FadeIn";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
@@ -13,10 +15,18 @@ function App() {
 
       <main className="w-full gap-2">
         <Hero />
-        <Skills />
-        <Experience />
-        <Projects />
-        <Contact />
+        <FadeIn>
+          <Skills />
+        </FadeIn>
+        <FadeIn>
+          <Experience />
+        </FadeIn>
+        <FadeIn>
+          <Projects />
+        </FadeIn>
+        <FadeIn>
+          <Contact />
+        </FadeIn>
       </main>
     </>
   );
