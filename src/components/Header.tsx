@@ -1,5 +1,5 @@
 import logo from "../assets/icons/favicon-32x32.png";
-
+ 
 const Header = () => {
   return (
     <div
@@ -13,7 +13,7 @@ const Header = () => {
             Samir Hossain
           </a>
         </div>
-
+ 
         {/* Mobile menu */}
         <div className="flex-none lg:hidden">
           <div className="dropdown dropdown-end">
@@ -37,24 +37,27 @@ const Header = () => {
               tabIndex={0}
               className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
+              <li><a href="#home">Home</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
               <li>
-                <a href="#home">Home</a>
-              </li>
-              <li>
-                <a href="#skills">Skills</a>
-              </li>
-              <li>
-                <a href="#experience">Experience</a>
-              </li>
-              <li>
-                <a href="#contact">Contact</a>
+                <a
+                  href="/Samir_Hossain_Resume.pdf"
+                  download="Samir_Hossain_Resume.pdf"
+                  className="text-blue-400 font-semibold"
+                >
+                  Resume
+                </a>
               </li>
             </ul>
           </div>
         </div>
+ 
         {/* Desktop menu */}
         <div className="flex-none hidden lg:block">
-          <ul className="menu menu-horizontal px-1">
+          <ul className="menu menu-horizontal px-1 items-center">
             <li>
               <a
                 href="#home"
@@ -81,10 +84,27 @@ const Header = () => {
             </li>
             <li>
               <a
+                href="#projects"
+                className="text-white hover:text-blue-400 transition-colors duration-200"
+              >
+                Projects
+              </a>
+            </li>
+            <li>
+              <a
                 href="#contact"
                 className="text-white hover:text-blue-400 transition-colors duration-200"
               >
                 Contact
+              </a>
+            </li>
+            <li className="ml-2">
+              <a
+                href="/Samir_Hossain_Resume.pdf"
+                download="Samir_Hossain_Resume.pdf"
+                className="px-4 py-2 rounded-lg border border-blue-500 text-blue-400 text-sm font-semibold hover:bg-blue-500 hover:text-white transition-colors duration-200"
+              >
+                Resume
               </a>
             </li>
           </ul>
@@ -93,5 +113,5 @@ const Header = () => {
     </div>
   );
 };
-
+ 
 export default Header;

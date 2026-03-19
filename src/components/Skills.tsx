@@ -5,6 +5,8 @@ import {
   FaTools,
   FaCheckCircle,
   FaLayerGroup,
+  FaProjectDiagram,
+  FaCodeBranch,
 } from "react-icons/fa";
 
 const getIcon = (title: string) => {
@@ -13,14 +15,18 @@ const getIcon = (title: string) => {
       return <FaCode className="text-purple-400" />;
     case "Frameworks & Libraries":
       return <FaLayerGroup className="text-purple-400" />;
-    case "Databases":
+    case "APIs & GraphQL":
+      return <FaProjectDiagram className="text-purple-400" />;
+    case "Databases & ORM":
       return <FaDatabase className="text-purple-400" />;
-    case "Version Control":
-      return <FaTools className="text-purple-400" />;
-    case "Tools & Platforms":
-      return <FaTools className="text-purple-400" />;
     case "Testing":
       return <FaCheckCircle className="text-purple-400" />;
+    case "Version Control":
+      return <FaCodeBranch className="text-purple-400" />;
+    case "Tools & Platforms":
+      return <FaTools className="text-purple-400" />;
+    case "Practices":
+      return <FaTools className="text-purple-400" />;
     default:
       return <FaTools className="text-purple-400" />;
   }

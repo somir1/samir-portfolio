@@ -6,7 +6,7 @@ export interface SkillCategory {
 export const skillsets: SkillCategory[] = [
   {
     title: "Languages",
-    items: ["JavaScript (ES6+)", "TypeScript", "HTML5", "CSS3", "SQL"],
+    items: ["JavaScript (ES6+)", "TypeScript", "Python", "HTML5", "CSS3", "SQL"],
   },
   {
     title: "Frameworks & Libraries",
@@ -21,17 +21,24 @@ export const skillsets: SkillCategory[] = [
       "Shadcn",
       "Node.js",
       "Express",
-      "GraphQL",
-      "Apollo",
+      "FastAPI",
     ],
   },
   {
-    title: "Databases",
-    items: ["MySQL", "PostgreSQL", "MongoDB", "Mongoose"],
+    title: "APIs & GraphQL",
+    items: [
+      "Apollo GraphQL",
+      "Strawberry GraphQL",
+      "REST APIs",
+    ],
+  },
+  {
+    title: "Databases & ORM",
+    items: ["PostgreSQL", "MySQL", "MongoDB", "Mongoose", "SQLAlchemy"],
   },
   {
     title: "Testing",
-    items: ["Jest", "Playwright", "Storybook"],
+    items: ["Jest", "React Testing Library", "Playwright", "BDD"],
   },
   {
     title: "Version Control",
@@ -40,6 +47,8 @@ export const skillsets: SkillCategory[] = [
   {
     title: "Tools & Platforms",
     items: [
+      "Storybook",
+      "Temporal",
       "Jira",
       "VSCode",
       "Postman",
@@ -55,7 +64,6 @@ export const skillsets: SkillCategory[] = [
     items: [
       "Responsive UI",
       "Design Systems",
-      "RESTful APIs",
       "State Management",
       "Unit & E2E Testing",
       "CI/CD",
