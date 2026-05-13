@@ -1,5 +1,20 @@
 export const experiences = [
   {
+    jobTitle: "R&D Software Developer",
+    companyName: "Maverick Power",
+    companyUrl: "https://maverickpwr.com/",
+    jobLocation: "McKinney, TX · On-site",
+    dateStarted: "May 2026",
+    dateEnded: "Present",
+    companyDescription:
+      "Power distribution and critical infrastructure solutions manufacturer",
+    jobSummary:
+      "Working on internal and customer-facing software initiatives supporting Maverick Power's R&D and manufacturing operations.",
+    keyAchievements: [
+      "Developing proof-of-concept applications and full-stack tools focused on customer portals, QR workflows, and document management systems.",
+    ],
+  },
+  {
     jobTitle: "Founder/Software Engineer",
     companyName: "XQM Consulting",
     companyUrl: "https://xqmlabs.com/",
