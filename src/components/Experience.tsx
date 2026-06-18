@@ -19,7 +19,7 @@ const Experience = () => {
         </h2>
         <div className="w-48 h-0.5 bg-gradient-to-r from-gray-500 to-gray-700 mb-12"></div>
 
-        <div className="w-full max-w-6xl space-y-10 px-4">
+        <div className="w-full max-w-8xl space-y-10 px-4">
           {experiences.map((exp) => (
             <ExperienceCard
               key={`${exp.companyName}-${exp.jobTitle}`}

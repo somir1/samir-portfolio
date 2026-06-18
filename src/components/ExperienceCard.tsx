@@ -22,7 +22,7 @@ const ExperienceCard: React.FC<ExperienceProps> = ({
   keyAchievements,
 }) => {
   return (
-    <div className="relative w-full max-w-5xl mx-auto rounded-lg overflow-hidden">
+    <div className="relative w-full mx-auto rounded-lg overflow-hidden">
       {/* Glow behind the card */}
       <div
         aria-hidden

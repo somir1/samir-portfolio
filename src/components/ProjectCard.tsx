@@ -1,6 +1,6 @@
 import type { ProjectProps } from "./Types/Projects";
 import { FiGithub, FiExternalLink } from "react-icons/fi";
- 
+
 const ProjectCard: React.FC<ProjectProps> = ({
   projectName,
   projectUrl,
@@ -11,7 +11,7 @@ const ProjectCard: React.FC<ProjectProps> = ({
   techStack,
 }) => {
   return (
-    <div className="relative w-full max-w-5xl mx-auto rounded-lg overflow-hidden">
+    <div className="relative w-full max-w-8xl mx-auto rounded-lg overflow-hidden">
       {/* Glow behind the card */}
       <div
         aria-hidden
@@ -26,7 +26,7 @@ const ProjectCard: React.FC<ProjectProps> = ({
             {status}
           </span>
         </div>
- 
+
         {/* Links Row */}
         <div className="flex gap-4 mb-4">
           <a
@@ -50,7 +50,7 @@ const ProjectCard: React.FC<ProjectProps> = ({
             </a>
           )}
         </div>
- 
+
         {/* Summary */}
         <div className="mb-4">
           <span className="block text-xs text-gray-500 uppercase tracking-wider mb-1">
@@ -58,7 +58,7 @@ const ProjectCard: React.FC<ProjectProps> = ({
           </span>
           <p className="text-gray-300">{summary}</p>
         </div>
- 
+
         {/* Highlights */}
         <div className="mb-4">
           <span className="block text-xs text-gray-500 uppercase tracking-wider mb-2">
@@ -70,7 +70,7 @@ const ProjectCard: React.FC<ProjectProps> = ({
             ))}
           </ul>
         </div>
- 
+
         {/* Tech Stack */}
         <div>
           <span className="block text-xs text-gray-500 uppercase tracking-wider mb-2">
@@ -91,5 +91,5 @@ const ProjectCard: React.FC<ProjectProps> = ({
     </div>
   );
 };
- 
+
 export default ProjectCard;
