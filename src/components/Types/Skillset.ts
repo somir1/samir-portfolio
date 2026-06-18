@@ -1,3 +1,8 @@
+export interface SkillCategory {
+  title: string;
+  items: string[];
+}
+
 export const skillsets: SkillCategory[] = [
   {
     title: "Languages",
