@@ -7,17 +7,18 @@ const educationAndCerts = [
   "Full-Stack Developer Certificate · Coding Dojo · 2021",
   "Graph Developer - Associate · Apollo GraphQL · 2024",
   "Graph Developer - Professional · Apollo GraphQL · 2025",
+  "API Orchestration - Associate · Apollo GraphQL · 2025",
 ];
 
 const Hero = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex flex-col md:flex-row justify-center items-center bg-[#1d232a] text-white px-8 py-24 gap-12"
+      className="min-h-screen flex flex-col justify-center items-center bg-[#1d232a] text-white px-16 py-24 gap-12 w-full"
     >
-      {/* Left Column: Image + Name + Badge */}
-      <div className="flex flex-col items-center md:items-start shrink-0">
-        <div className="w-56 h-56 md:w-72 md:h-72 relative mb-5">
+      {/* Top: Image + Name + Badge */}
+      <div className="flex flex-col mt-8 justify-center items-center">
+        <div className="w-56 h-56 relative ">
           <img
             src={profilePic}
             alt="Samir Hossain"
@@ -42,18 +43,27 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Right Column: Text Content */}
-      <div className="max-w-xl w-full text-center md:text-left">
+      {/* Bottom: Text Content */}
+      <div className="w-full text-center">
         <p className="text-gray-400 text-base leading-relaxed">
-          Software Engineer with 3+ years of experience building production web
-          applications across SaaS and consulting. I focus on responsive UIs,
-          performance, and shipping features that actually move the needle.
+          Full Stack Software Engineer with production experience building
+          internal platforms and customer-facing applications across SaaS,
+          consulting, and enterprise manufacturing environments. I focus on
+          clean architecture, responsive UIs, and shipping features that
+          actually move the needle.
         </p>
 
         <h3 className="mt-5 font-semibold text-white text-sm uppercase tracking-wider">
           Highlights
         </h3>
-        <ul className="mt-2 space-y-1.5 text-gray-300 text-sm">
+        <ul className="mt-2 space-y-1.5 text-gray-300 text-sm text-left mx-auto">
+          <li className="flex items-start gap-2">
+            <span className="mt-1 shrink-0 w-1.5 h-1.5 rounded-full bg-blue-400" />
+            Built QR Library at Maverick Power as the sole developer, a
+            full-stack document management platform serving 36 customers and
+            18,000+ serial numbers, with QR codes physically attached to shipped
+            hardware units.
+          </li>
           <li className="flex items-start gap-2">
             <span className="mt-1 shrink-0 w-1.5 h-1.5 rounded-full bg-blue-400" />
             Built Snap! Drive from scratch in Vue 3 and GraphQL, giving 400+
@@ -61,25 +71,21 @@ const Hero = () => {
           </li>
           <li className="flex items-start gap-2">
             <span className="mt-1 shrink-0 w-1.5 h-1.5 rounded-full bg-blue-400" />
-            Migrated a legacy Ruby feature into a Vue.js dashboard module,
-            cutting search load times by 60%.
+            Led the Find Funds migration end-to-end, cutting search load times
+            by 60% and improving accuracy across the fundraiser catalog.
           </li>
           <li className="flex items-start gap-2">
             <span className="mt-1 shrink-0 w-1.5 h-1.5 rounded-full bg-blue-400" />
-            Delivered a healthcare client MVP portal that secured a phase-two
-            contract extension.
-          </li>
-          <li className="flex items-start gap-2">
-            <span className="mt-1 shrink-0 w-1.5 h-1.5 rounded-full bg-blue-400" />
-            Integrated Twilio and SendGrid to automate campaign outreach,
-            replacing a fully manual process.
+            Delivered a healthcare client portal from zero to 80% test coverage,
+            contributing to a phase-two contract extension at Provoke Solutions.
           </li>
         </ul>
 
         <p className="mt-5 text-gray-400 text-sm leading-relaxed">
           I specialize in{" "}
           <span className="text-white font-medium">
-            React, Vue, Next.js, Node.js, TypeScript, and GraphQL
+            React, TypeScript, NestJS, Node.js, Prisma, PostgreSQL, Tailwind
+            CSS, VUE
           </span>
           , and I'm always open to picking up whatever the project needs.
         </p>
@@ -89,7 +95,7 @@ const Hero = () => {
         </p>
 
         {/* Buttons */}
-        <div className="flex flex-col sm:flex-row gap-3 justify-center md:justify-start mt-6 mb-5">
+        <div className="flex flex-col sm:flex-row gap-3 justify-center mt-6 mb-5">
           <a
             href="#experience"
             className="inline-block px-6 py-2.5 rounded-lg bg-gradient-to-r from-gray-700 to-gray-600 text-white text-sm font-semibold hover:brightness-110 transition duration-200"
@@ -105,11 +111,11 @@ const Hero = () => {
         </div>
 
         {/* Education & Certifications */}
-        <div className="mb-5">
-          <p className="text-xs text-gray-500 uppercase tracking-wider mb-2 text-center md:text-left">
+        <div className="mb-5 ">
+          <p className="text-xs text-gray-500 uppercase tracking-wider mb-2">
             Education & Certifications
           </p>
-          <div className="flex flex-col gap-1.5 items-center md:items-start">
+          <div className="flex flex-col gap-1.5 items-center">
             {educationAndCerts.map((item) => (
               <div
                 key={item}
@@ -123,7 +129,7 @@ const Hero = () => {
         </div>
 
         {/* Social Icons */}
-        <div className="flex gap-4 justify-center md:justify-start">
+        <div className="flex gap-4 justify-center">
           <a
             href="https://github.com/somir1"
             target="_blank"

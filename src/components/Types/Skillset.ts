@@ -1,44 +1,54 @@
-export interface SkillCategory {
-  title: string;
-  items: string[];
-}
-
 export const skillsets: SkillCategory[] = [
   {
     title: "Languages",
-    items: ["JavaScript (ES6+)", "TypeScript", "Python", "HTML5", "CSS3", "SQL"],
+    items: [
+      "JavaScript (ES6+)",
+      "TypeScript",
+      "Python",
+      "HTML5",
+      "CSS3",
+      "SQL",
+    ],
   },
   {
     title: "Frameworks & Libraries",
     items: [
       "React",
-      "Redux",
-      "Vue 3",
-      "Pinia",
       "Next.js",
-      "Tailwind CSS",
-      "Material UI",
-      "Shadcn",
+      "Vue 3",
+      "Vite",
       "Node.js",
+      "NestJS",
       "Express",
       "FastAPI",
+      "Tailwind CSS",
+      "Shadcn UI",
+      "React Query",
+      "Zustand",
     ],
   },
   {
     title: "APIs & GraphQL",
-    items: [
-      "Apollo GraphQL",
-      "Strawberry GraphQL",
-      "REST APIs",
-    ],
+    items: ["Apollo GraphQL", "Strawberry GraphQL", "REST APIs"],
   },
   {
     title: "Databases & ORM",
-    items: ["PostgreSQL", "MySQL", "MongoDB", "Mongoose", "SQLAlchemy"],
+    items: [
+      "PostgreSQL",
+      "MySQL",
+      "MongoDB",
+      "Mongoose",
+      "SQLAlchemy",
+      "Prisma",
+    ],
   },
   {
     title: "Testing",
-    items: ["Jest", "React Testing Library", "Playwright", "BDD"],
+    items: ["Jest", "React Testing Library", "Playwright"],
+  },
+  {
+    title: "Cloud & Auth",
+    items: ["AWS S3", "Azure AD", "JWT Authentication"],
   },
   {
     title: "Version Control",
@@ -49,28 +59,27 @@ export const skillsets: SkillCategory[] = [
     items: [
       "Storybook",
       "Temporal",
+      "Turborepo",
       "Jira",
-      "VSCode",
       "Postman",
       "Figma",
       "Azure DevOps",
-      "Kubernetes",
-      "Split.io",
-      "FullStory",
+      "VSCode",
     ],
   },
   {
     title: "Practices",
     items: [
+      "Full-Stack Development",
       "Responsive UI",
       "Design Systems",
       "State Management",
       "Unit & E2E Testing",
       "CI/CD",
-      "BDD",
       "Agile/Scrum",
+      "Accessibility (WCAG/ARIA)",
+      "Code Reviews",
       "Performance Optimization",
-      "Cross-Browser Compatibility",
     ],
   },
 ];

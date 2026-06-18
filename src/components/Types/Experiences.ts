@@ -9,9 +9,14 @@ export const experiences = [
     companyDescription:
       "Power distribution and critical infrastructure solutions manufacturer",
     jobSummary:
-      "Working on internal and customer-facing software initiatives supporting Maverick Power's R&D and manufacturing operations.",
+      "Building internal and customer-facing software for Maverick Power's R&D team, working across the full stack within a Turborepo monorepo using React, TypeScript, NestJS, Prisma, and PostgreSQL.",
     keyAchievements: [
-      "Developing proof-of-concept applications and full-stack tools focused on customer portals, QR workflows, and document management systems.",
+      "Designed and built QR Library, a full-stack document management platform serving 36 customers and 18,000+ serial numbers, enabling field technicians and customers to quickly access product-specific documentation through QR code scanning.",
+      "Scaffolded a new Vite/React frontend within the company's Turborepo monorepo, integrating shared UI packages and extending the existing NestJS backend with new controllers, services, Prisma models, database migrations, and REST APIs.",
+      "Designed and implemented a secure document delivery system using AWS S3 signed URLs, organizing documentation by customer and serial number with role-based access controls separating public and employee-only records.",
+      "Built internal document management workflows allowing employees to upload customer-specific files, manage serial-number-based records, and batch distribute common documents across product groups.",
+      "Implemented role-based authorization across frontend and backend for Admin, Project Manager, and Engineer roles, establishing a permissions framework designed to scale as the platform grows.",
+      "Contribute full-stack features across internal manufacturing applications and customer-facing platforms, working across React frontends, NestJS services, Prisma data models, and PostgreSQL databases.",
     ],
   },
   {
